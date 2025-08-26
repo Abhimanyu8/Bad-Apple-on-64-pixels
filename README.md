@@ -29,7 +29,7 @@ This isn't just a simple video player. Oh no. To cram 2008 onto a $4 microcontro
 
 * **Brute Force Overclocking:** The Raspberry Pi Pico's CPU has been respectfully encouraged to run at 250 MHz, far beyond its usual 133 MHz. Cause Marisa would do the same for no real reason whatsoever
 * **Binary Soul-Streaming:** The entire video is converted into a raw binary file of pixel data. The Pico reads this file directly from its flash memory, one frame at a time, so it never runs out of RAM. It's like a digital grimoire of images.
-* **Pre-Rotated :** The frames are pre-rotated 90 degrees on a PC before being sent to the Pico, to save precious CPU cycles for what really matters: displaying the animation. I did this for my specific setup, you may not need it in yours 
+* **Janky-Fixes :** The frames are pre-rotated 90 degrees on a PC before being sent to the Pico, to save precious CPU cycles for what really matters: displaying the animation. I did this for my specific setup, you may not need it in yours 
 * **Watchdog of the Hakurei Shrine:** A watchdog timer is implemented. If the code ever freezes (perhaps from witnessing something it shouldn't have), the Pico automatically reboots itself.
 ---
 
