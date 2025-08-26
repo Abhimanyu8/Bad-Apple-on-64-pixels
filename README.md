@@ -12,9 +12,7 @@ I present to you: the full shadow art PV, subjected to the glorious, flickering 
 
 Behold, the fruits of my obsession. It's beautiful. It's cursed. It's Bad Apple!!
 
-**[INSERT A GIF OR VIDEO OF YOUR PROJECT RUNNING HERE]**
-
-![](placeholder_for_your_image.jpg)
+<img src="apple_bad.gif" alt="Bad Apple on 8x8 Matrix" width="300"/>
 
 ---
 ## 📂 Repository Structure
@@ -72,7 +70,7 @@ Connect everything according to the ancient texts (or this diagram). This projec
 ### Step 2: Prepare the Frames on Your PC
 
 1.  Download the original Bad Apple!! video (or any video you want to subject to this process).
-2.  Run the `video_converter_rotated.py` script on your PC. It will process the video and create a file named `frames.bin`. This is your animation data, pre-rotated and ready for the Pico.
+2.  Run the `video_converter_rotated.py` script on your PC. It will process the video and create a file named `frames.bin`. This is your animation data . (in my case they might be rotated 90 degrees left or right depending on your screen orientation)
 
 ### Step 3: Upload to the Pico
 
@@ -108,3 +106,5 @@ It's a tricky incident to resolve, but definitely a cool direction for this proj
 ---
 
 If you thought this project was cool, please consider giving it a ⭐ on GitHub! It's greatly appreciated.
+<video src="bad_apple_8x8_preview.mp4" controls="controls" style="max-width: 480px;"></video>
+
