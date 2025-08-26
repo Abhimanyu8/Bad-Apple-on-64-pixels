@@ -13,7 +13,7 @@ I present to you: the full shadow art PV, subjected to the glorious, flickering 
 <img src="apple_bad.gif" alt="Bad Apple on 8x8 Matrix" width="300"/>
 
 ---
-## 📂 Repository Structure
+## Repository Structure
 
 This project is organized into a few key folders:
 
@@ -23,11 +23,11 @@ This project is organized into a few key folders:
 
 ---
 
-## ✨ How This Incident Was Resolved (The Tech Stuff)
+## How This Incident Was Resolved
 
-This isn't just a simple video player. Oh no. To cram 2008 onto a $4 microcontroller, some... *creative liberties* were taken.
+To cram the 2008 banger onto a $4 microcontroller, some... *creative liberties* were taken.
 
-* **Brute Force Overclocking:** The Raspberry Pi Pico's CPU has been respectfully encouraged to run at 250 MHz, far beyond its usual 133 MHz. Cause Marisa would do the same for no real reason whatsoever
+* **Brute Force Overclocking:** The Raspberry Pi Pico's CPU has been respectfully encouraged to run at 250 MHz, far beyond its usual 133 MHz. Cause Marisa would also do the same for no real reason whatsoever
 * **Binary Soul-Streaming:** The entire video is converted into a raw binary file of pixel data. The Pico reads this file directly from its flash memory, one frame at a time, so it never runs out of RAM. It's like a digital grimoire of images.
 * **Janky-Fixes :** The frames are pre-rotated 90 degrees on a PC before being sent to the Pico, to save precious CPU cycles for what really matters: displaying the animation. I did this for my specific setup, you may not need it in yours 
 * **Watchdog of the Hakurei Shrine:** A watchdog timer is implemented. If the code ever freezes (perhaps from witnessing something it shouldn't have), the Pico automatically reboots itself.
@@ -51,7 +51,7 @@ This isn't just a simple video player. Oh no. To cram 2008 onto a $4 microcontro
 
 ---
 
-## 📜 The Incantation (Setup Guide)
+## The Incantation (Setup Guide)
 
 ### Step 1: Wire the Components
 
@@ -103,6 +103,7 @@ It's a tricky incident to resolve, but definitely a cool direction for this proj
 
 ---
 
-If you thought this project was cool, please consider giving it a ⭐ on GitHub! It's greatly appreciated.
-<video src="bad_apple_8x8_preview.mp4" controls="controls" style="max-width: 480px;"></video>
+If you found this abomination cool, please consider giving it a ⭐ It's greatly appreciated. 
+
+<video src="bad_apple_8x8_preview.mp4" style="max-width: 480px;"></video>
 
