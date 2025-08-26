@@ -17,6 +17,15 @@ Behold, the fruits of my obsession. It's beautiful. It's cursed. It's Bad Apple!
 ![](placeholder_for_your_image.jpg)
 
 ---
+## 📂 Repository Structure
+
+This project is organized into a few key folders:
+
+* `/pico`: Contains all the MicroPython files (`main.py`, `max7219.py`) that run on the Raspberry Pi Pico.
+* `/PC`: Contains the Python script (`video_converter_rotated.py`) used to convert the video file on your computer.
+* `/frames`: This is where the output of the PC script (`frames.bin`) should be placed.
+
+---
 
 ## ✨ How This Incident Was Resolved (The Tech Stuff)
 
