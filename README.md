@@ -4,7 +4,7 @@ After seeing Bad Apple!! run on everything from graphing calculators to smart to
 
 So, I took that as a personal challenge.
 
-I present to you: the full shadow art PV, subjected to the glorious, flickering torment of a tiny 8x8 LED matrix. That's 64 entire pixels of pure, unadulterated danmaku.
+I present to you: the full shadow art PV, subjected to the glorious, flickering torment of a tiny 8x8 LED matrix. That's 64 entire pixels of pure, unadulterated touhou cast.
 
 ---
 
