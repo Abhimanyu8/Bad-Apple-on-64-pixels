@@ -8,9 +8,7 @@ I present to you: the full shadow art PV, subjected to the glorious, flickering 
 
 ---
 
-### The Final Result: A Spectacle of Light and Shadow
-
-Behold, the fruits of my obsession. It's beautiful. It's cursed. It's Bad Apple!!
+### The Final Result
 
 <img src="apple_bad.gif" alt="Bad Apple on 8x8 Matrix" width="300"/>
 
