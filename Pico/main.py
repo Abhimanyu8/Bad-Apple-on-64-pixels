@@ -3,11 +3,9 @@ import utime
 from max7219 import Matrix8x8
 
 # --- Overclocking ---
-# Set the Pico's clock speed to 250 MHz for smoother animation.
 machine.freq(250000000)
 
 # --- Pin Configuration ---
-# Using the standard SPI driver that matches your specific wiring
 led_onboard = machine.Pin(25, machine.Pin.OUT)
 spi = machine.SPI(0, baudrate=10000000, polarity=0, phase=0, sck=machine.Pin(18), mosi=machine.Pin(19))
 cs = machine.Pin(17, machine.Pin.OUT)
@@ -23,7 +21,7 @@ display = Matrix8x8(spi, cs, 1)
 display.brightness(2)
 
 # --- Constants for Streamed Data ---
-# Make sure to upload the 'frames.bin' (pre-rotated) file
+# Make sure to upload the 'frames.bin' file
 FRAMES_FILE = "frames.bin"
 FRAME_SIZE_BYTES = 8
 
@@ -37,7 +35,7 @@ def play_animation():
     
     print("Starting animation. Press to play/pause. Long press (2s) to restart.")
     
-    # Icons are pre-rotated 90 degrees clockwise
+    # !! Caution !! Icons are pre-rotated 90 degrees clockwise
     pause_icon = bytes([0x00, 0x66, 0x66, 0x00, 0x00, 0x66, 0x66, 0x00])
     replay_icon = bytes([0x3C, 0x42, 0x99, 0x99, 0x99, 0x81, 0x42, 0x3C]) # Replay symbol
 
